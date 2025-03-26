@@ -29,7 +29,7 @@ A React Native mobile application that provides an interactive quiz experience f
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hriday-sehgal/Simplify-Money-Quiz-React-Native
+git clone https://github.com/hriday-sehgal/Simplify-Money-Quiz-React-Native.git
 cd SimplifyMoneyQuizAppNew
 ```
 
