@@ -62,6 +62,12 @@ After starting the development server, you can:
 3. Run on Web:
    - Open the app in your web browser
 
+## QR Code
+
+Scan this QR code in the Expo Go App to open the app in Expo Go:
+
+![QR Code](https://github.com/user-attachments/assets/d8dc361f-1883-451a-9074-1fb8c5180cbc)
+
 ## Project Structure
 
 ```
