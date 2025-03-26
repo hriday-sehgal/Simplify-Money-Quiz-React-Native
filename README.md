@@ -1,39 +1,50 @@
 # Simplify Money Quiz App
 
-A React Native quiz application that tests users' knowledge about money management and financial concepts.
+A React Native mobile application that provides an interactive quiz experience focused on money-related questions.
 
 ## Features
 
-- Interactive quiz interface with multiple choice questions
-- Real-time feedback on correct/incorrect answers
-- Progress tracking with a progress bar
-- Prevention of back navigation during quiz
-- Detailed results page with question history
-- Score calculation and display
-- Responsive design for both mobile and web
+- List view of available quizzes
+- Interactive single-choice questions
+- Real-time answer validation
+- Progress tracking
+- Result summary with correct/incorrect answers
+- Mobile-responsive design for both Android and iOS
+
+## Tech Stack
+
+- React Native
+- Expo
+- JavaScript
 
 ## Prerequisites
 
 - Node.js (v14 or higher)
-- npm or yarn package manager
+- npm or yarn
 - Expo CLI
+- Android Studio (for Android development)
+- Xcode (for iOS development)
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/hriday-sehgal/Simplify-Money-Quiz-React-Native
 cd SimplifyMoneyQuizAppNew
 ```
 
 2. Install dependencies:
 ```bash
 npm install
+# or
+yarn install
 ```
 
 3. Start the development server:
 ```bash
-npx expo start
+npm start
+# or
+yarn start
 ```
 
 ## Running the App
@@ -55,37 +66,46 @@ After starting the development server, you can:
 
 ```
 SimplifyMoneyQuizAppNew/
-├── App.js              # Main application entry point
-├── Quiz.js            # Quiz component implementation
-├── QuizList.js        # List of available quizzes
-├── Result.js          # Results page component
-└── package.json       # Project dependencies and scripts
+├── app.json
+├── index.js
+├── Quiz.js
+├── .expo/
+└── README.md
 ```
 
-## Technologies Used
+## Quiz Format
 
-- React Native
-- Expo
-- React Navigation
-- React Native Vector Icons
+The app supports multiple quizzes, each containing 5 single-choice questions. Each question has 5 answer options.
 
-## Contributing
+## Quiz Flow
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+1. User sees a list of available quizzes
+2. Tapping a quiz starts the quiz on a new screen
+3. For each question:
+   - Question statement is displayed
+   - 5 answer options are shown
+   - User must select an option to enable the "Check Answer" button
+   - After checking:
+     - Correct answer: Green highlight with tick
+     - Incorrect answer: Red highlight with cross, correct answer highlighted in green
+     - Button changes to "Next" to proceed
+4. After all questions are answered, a results screen is shown with:
+   - Number of correct answers
+   - Number of incorrect answers
+   - Summary of each question's performance
 
-## License
+## Bonus Features
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Prevents users from going back once a quiz starts
+- Detailed result summary showing correct and incorrect answers
 
-## Support
+## Copyright Disclaimer
 
-For support, email [your-email@example.com] or create an issue in the GitHub repository.
+Copyright 2025 Hriday Sehgal. All rights reserved.
 
-## Acknowledgments
+This project and its source code are the proprietary intellectual property of Hriday Sehgal. Unauthorized copying, modification, distribution, or reproduction in any form without explicit permission is strictly prohibited.
 
-- Thanks to Expo team for their amazing development platform
-- React Native community for continuous support and resources
+## Contact
+
+For inquiries or collaborations, reach out via:
+- **Email**: hriday.career@gmail.com
