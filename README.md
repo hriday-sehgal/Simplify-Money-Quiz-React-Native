@@ -68,17 +68,6 @@ Scan this QR code in the Expo Go App to open the app in Expo Go:
 
 ![QR Code](https://github.com/user-attachments/assets/d8dc361f-1883-451a-9074-1fb8c5180cbc)
 
-## Project Structure
-
-```
-SimplifyMoneyQuizAppNew/
-├── app.json
-├── index.js
-├── Quiz.js
-├── .expo/
-└── README.md
-```
-
 ## Quiz Format
 
 The app supports multiple quizzes, each containing 5 single-choice questions. Each question has 5 answer options.
